@@ -1,0 +1,1 @@
+/* Input week number and print week day */
