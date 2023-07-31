@@ -1,0 +1,1 @@
+/* Write a program in C to display the cube of the number up to an integer. */
