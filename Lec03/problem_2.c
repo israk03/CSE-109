@@ -1,5 +1,3 @@
-/* Find the largest number between given three numbers */
-
 #include<stdio.h>
 int main()
 {
@@ -15,10 +13,14 @@ int main()
     {
         printf("%d is the largest number.", b);
     }
-    else
+    else if(c>a && c>b)
     {
         printf("%d is the largest number.", c);
     }
+	else
+	{
+		printf("they are equal");
+	}
 
     return 0;
 }
