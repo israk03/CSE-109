@@ -8,7 +8,7 @@ int main()
     for(i=0; i<10; i++)
     {
         scanf("%d", &a);
-        sum += i;
+        sum += a;
     }
     avg = sum/10;
     printf("%d\n", sum);
