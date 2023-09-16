@@ -5,7 +5,7 @@ int main()
 	printf("Enter a number: ");
 	scanf("%d", &number);
 	while(i<=10){
-		printf("%d\n", (number*i));
+		printf("%d * %d = %d\n", number, i, (number*i)); 
 		i++;
 	}
 	return 0;
