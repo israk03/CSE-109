@@ -12,9 +12,9 @@ int main(){
 
     while(n!=0){
         rev = (rev*10) + (n%10);
-        n/=10;
+        n /= 10;
     }
-    if(num=rev){
+    if(num==rev){
         printf("%d is palindrome.", num);
     }
     else{
