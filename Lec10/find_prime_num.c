@@ -3,23 +3,24 @@
 #include<stdio.h>
 #include<stdbool.h>
 
-bool is_prime(int n){
-    if(n<=1){
+bool is_prime(int num){
+    if(num <= 1){
+        return false;
+    }
+
+    for(int i=2; i*i <= num; i++){
+        if(num % i == 0){
             return false;
         }
-        for(int i=2; i*i <= n; i++){
-            if(n % 2 == 0){
-                return false;
-            }
-        }
+    }
 
-    
+    return true;
 }
 
 void print_prime(int a){
     printf("Prime numbers up to %d are: ", a);
 
-    for(int i=2; i<a; i++){
+    for(int i=2; i<=a; i++){
         if(is_prime(i)){
             printf("%d ", i);
         }

@@ -11,9 +11,9 @@ int sum(int n){
 }
 
 int main(){
-    int num;
-    printf("Enter a positive integer: ");
-    scanf("%d", &num);
+    int num = 10;
+    //printf("Enter a positive integer: ");
+    //scanf("%d", &num);
 
     printf("Sum of the first %d odd integers = %d", num, sum(num));
 
