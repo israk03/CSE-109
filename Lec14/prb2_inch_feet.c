@@ -37,7 +37,7 @@ int main(){
 
     sum = add_distance(dis1, dis2);
 
-    printf("\nSum of distance: %d feet %.2lf inch\n", sum.feet, sum.inch);
+    printf("\nSum of distance: %d feet %.2f inch\n", sum.feet, sum.inch);
 
     return 0;
 }
