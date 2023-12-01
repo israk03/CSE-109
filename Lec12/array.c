@@ -16,7 +16,7 @@ int main(){
     int* p = arr;
     printf("Elements are: ");
     for(int i=0; i<n; i++){
-        printf("%d ", *(p+1));
+        printf("%d ", *(p+i));
     }
 
     return 0;
